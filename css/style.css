@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap')
+
 /* Universal selector*/
-* {
+
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 :root{
     --primaryColor: black;
     --secondaryColor: white;
@@ -12,6 +17,7 @@
     --borderColor: #53536a;
     font-family: cursive;
 }
+
 /* Logo */
 #logo {
     width: 16rem;
@@ -23,3 +29,4 @@
     background-repeat: no-repeat;
     background-color: black;
 } */
+
