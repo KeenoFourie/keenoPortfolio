@@ -10,9 +10,16 @@
     --secondaryColor: white;
     --alternativeColor: gray;
     --borderColor: #53536a;
-    font-family: 'Tilt Prism', cursive, 'Courier New', Courier, monospace;
+    font-family: cursive;
 }
 /* Logo */
 #logo {
     width: 16rem;
 }
+
+/* body {
+    background-image: url("https://i.postimg.cc/XvTVxMKd/logo.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: black;
+} */
